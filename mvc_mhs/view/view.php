@@ -3,7 +3,7 @@
 		<title>MVC</title>
 	</head>
 	<body>
-		<table border="1" cellpadding="5" cellspacing="0" align="center">
+		<table border="3" cellpadding="5" cellspacing="0" align="center">
 		<h1 align=center>Daftar Mahasiswa UDINUS</h1>
 			<tr align="center">
 				<td>Id Kopi</td>
@@ -22,7 +22,7 @@
 						<td>$row[3]</td>
 						<td>$row[4]</td>
 						<td><a href='index.php?e=$row[0]'>Edit</a></td>
-						<td><a href='index.php?d=$row[0]' onClick=\"return confirm('Hapus Data?')\"\>Delete</a></td>
+						<td><a href='index.php?d=$row[0]' onClick=\"return confirm('Delete Data?')\"\>Delete</a></td>
 					</tr>
 				";
 			}?>
