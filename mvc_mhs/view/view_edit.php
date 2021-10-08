@@ -1,10 +1,10 @@
 <html>
 	<head>
-		<title>MVC</title>
+		<title>MVC CRUD</title>
 	</head>
 	<body>
 		<form action="" method="POST">
-			<table border="1" cellpadding="5" cellspacing="0" align="center">
+			<table border="3" cellpadding="5" cellspacing="0" align="center">
 				<tr align="center">
 					<td>NIM</td>
 					<td>:</td>
